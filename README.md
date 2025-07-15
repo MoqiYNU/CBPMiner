@@ -1,1 +1,2 @@
 # CBPMiner
+CBP Miner is developed using Python, which takes as input a CSV-based event log, and then automatically discovers a collaborative business process (CBP) specified in a dot file. If the discovered CBP is rational, then it is returned directly; otherwise, a set of coordinators are generated, each of which is also described in a dot file. These coordinators can be synthesized to control the discovered CBP to become rational again.
